@@ -151,6 +151,24 @@ style, and size-check new models with `memory_estimator.py` before adding them.
 
 MIT — use it, fork it, learn from it.
 
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Android App] --> B[Model Checker]
+    B -->|gguf| C{llama.cpp}
+    B -->|mlx| D{MLX}
+    B --> E[Quantized Downloader]
+    C --> F[Tokens/s Benchmark]
+    D --> F
+    C --> G[Local Chat]
+    D --> G
+    F --> H[(Leaderboard results)]
+    G --> I[Private - stays on device]
+```
+
+
 ---
 <p align="center">
   <b>Part of the <a href="https://github.com/axe01010/axe01010">Free On-Device AI DevKit</a> stack</b><br>
