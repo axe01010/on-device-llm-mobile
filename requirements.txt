@@ -1,0 +1,5 @@
+# Runtime-friendly: the whole project is intentionally dependency-light so it
+# runs out of the box in a minimal Termux/venv. Add llama.cpp yourself for real
+# inference (pkg install llama-cpp) — it is not a pip dependency.
+
+# Python side (mostly convenience, no heavy ML dependencies):
