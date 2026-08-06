@@ -150,3 +150,16 @@ style, and size-check new models with `memory_estimator.py` before adding them.
 ## 📜 License
 
 MIT — use it, fork it, learn from it.
+
+---
+<p align="center">
+  <b>Part of the <a href="https://github.com/axe01010/axe01010">Free On-Device AI DevKit</a> stack</b><br>
+</p>
+<p align="center">
+  <a href="https://github.com/axe01010/android-ai-agent">android-ai-agent</a> ·
+  <a href="https://github.com/axe01010/on-device-llm-mobile">on-device-llm-mobile</a> ·
+  <a href="https://github.com/axe01010/mcp-server-hub">mcp-server-hub</a> ·
+  <a href="https://github.com/axe01010/termux-toolkit">termux-toolkit</a> ·
+  <a href="https://github.com/axe01010/android-security-lab">android-security-lab</a>
+</p>
+<p align="center"><sub>README built for the <b>Free On-Device AI DevKit</b> — private AI that runs entirely on a phone.</sub></p>
