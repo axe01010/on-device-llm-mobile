@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Model weights & artifacts — DO NOT commit gigabytes of GGUF.
+models/*.gguf
+models/gguf/
+!models/catalog.json
+!models/README.md
+
+# Runtime / logs
+*.log
+.installed.json
+
+# OS junk
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
